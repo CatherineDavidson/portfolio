@@ -22,11 +22,12 @@ const Portfolio = () => {
       type: "Project"
     },
     {
-      title: "Calculator App",
+      title: "Vegan snacks Application",
       description: "Interactive calculator with modern design",
-      tech: ["HTML", "CSS", "JavaScript"],
+      tech: ["Springboot", "React", "JavaScript","Java"],
       type: "Project"
     }
+    
   ];
 
   const internships = [
@@ -51,6 +52,17 @@ const Portfolio = () => {
         "Developed full-stack applications",
         "Participated in code reviews"
       ]
+    },
+    {
+      company: "Amazon",
+      role: "Software Development Intern",
+      duration: "2025",
+      description: "prioritizing deep understanding, clean code, collaboration, industry level experience on real time project ",
+      highlights: [
+        "Worked on real-time project",
+        "Gained industry experience",
+        "impact of every line of code"
+      ]
     }
   ];
 
@@ -68,21 +80,28 @@ const Portfolio = () => {
       credentialLink: "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certification"
     },
     {
-      name: "React Web Developer Certification_ SpringBoard",
+      name: "Java Foundation Certification",
+      issuer: "Infosys Springboard",
+      date: "Aug 10, 2024",
+      credentialLink: "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certification"
+    },
+    {
+      name: "React Web Developer Certification",
       issuer: "Infosys Springboard",
       date: "Aug 17, 2024",
       credentialLink: "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certification"
     },
     {
-      name: "Java Foundation Certification",
-      issuer: "Infosys Springboard",
-      date: "Aug 10, 2024",
+      name: "Design Thinking - A primer",
+      issuer: "NPTEL",
+      date: "Aug , 2024",
       credentialLink: "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certification"
     }
+    
   ];
 
   const skills = [
-    "HTML/CSS", "React", "Java", "C++", "UI/UX Design", "Responsive Design", 
+    "HTML/CSS", "React", "Java", "C++", "UI/UX Design","Springboot", "Responsive Design", 
     "Frontend Development", "Full Stack Development"
   ];
 
